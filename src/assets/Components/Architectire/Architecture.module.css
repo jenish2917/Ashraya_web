@@ -1,0 +1,19 @@
+.architectureHead{
+    padding: 35px 0px;
+    color:  #865A5A;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0px;
+}
+.architectureSearch{
+    display: flex;
+    column-gap: 15px;
+    align-items:end;
+}
+.architectureSearch > input{
+    border: 0;
+    border-bottom: 1px solid grey;
+}
+.architectureSearch > i{
+    color: grey;
+    font-size: 20px;
+}

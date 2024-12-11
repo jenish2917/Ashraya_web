@@ -1,21 +1,29 @@
 [
     {
-        "image":"path",
-        "description" : "des",
+        "image":"/public/la_granada/IMG-20241125-WA0001.jpg",
+        "description" : " Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quibusdam odit recusandae reprehenderit delectus quae quis iste sint magni enim nobis excepturi totam, facilis sapiente minima possimus velit. Expedita, at.",
         "priority" : 1,
-        "title":"",
-        "data":[
-            {
-                "picture1" : "path"
-            
-            }
+        "title":" LA GRANADA ",
+        "sumImages":[
+              "/public/la_granada/IMG-20241125-WA0001.jpg",
+              "/public/la_granada/IMG-20241125-WA0002.jpg",
+              "/public/la_granada/IMG-20241125-WA0003.jpg",
+              "/public/la_granada/IMG-20241125-WA0004.jpg",
+              "/public/la_granada/IMG-20241125-WA0005.jpg"
         ]
     },
     {
-        "image":"path",
-        "description" : "des",
-        "priority" : 1,
-        "title":""
-       
+        "image":"/public/empire/1.jpg",
+        "description" : " Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quibusdam odit recusandae reprehenderit delectus quae quis iste sint magni enim nobis excepturi totam, facilis sapiente minima possimus velit. Expedita, at.",
+        "priority" : 22,
+        "title":"THE EMPIRE",
+        "sumImages":[
+            "/public/empire/2.jpg",
+            "/public/empire/3.jpg",
+            "/public/empire/4.jpg",
+            "/public/empire/5.jpg",
+            "/public/empire/1.jpg"
+               ]       
     }
+  
 ]
