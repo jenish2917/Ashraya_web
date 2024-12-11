@@ -1,0 +1,25 @@
+.logoContainer {
+    text-align: center;
+    margin-top: 20px; /* Adjust margin as needed */
+    height: 80vh;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.logo > #logo_main {
+   display: block;  
+  
+}
+.companyName {
+    display: block;
+    text-align: center;
+    font-family: "Didact Gothic", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #532424; /* Dark red text color */
+    /* Initially hide company name */
+    transition: opacity 1s ease; /* Fade-in animation for company name */
+}
+
