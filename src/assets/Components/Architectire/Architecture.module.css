@@ -4,6 +4,22 @@
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 0px;
 }
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.ImageCon{
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    column-gap: 7px;
+    row-gap: 7px;
+    grid-auto-rows: 24vw;
+    grid-auto-flow: dense;
+    object-fit: cover;
+}
+
 .architectureSearch{
     display: flex;
     column-gap: 15px;

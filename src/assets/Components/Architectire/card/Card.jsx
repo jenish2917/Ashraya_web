@@ -1,16 +1,23 @@
-import styles from "./Card.module.css"
-export default function Card({ image,description,title,subImage,priority }){
+ import styles from "./Card.module.css"
+ import PropTypes from 'prop-types';
+export default function Card({ image , description , title , subImage , pattern }){
     return(
         <>
-           <div className={styles.ImageCon}>
-                <div>
-                    { priority < 5 ? <img src={image} alt="" className={styles.pattern1} style={{gridColumnStart:"1", gridColumnEnd:"2", objectFit:"cover"}}/> :  <img src={image} alt="" />}
-                   
-                </div>
+           
+              
+                   {pattern == 1 ? <img src={image} id={styles.pattern1}/> : pattern == 2 ?  <img src={image} id={styles.pattern2} /> : pattern == 3 ? <img src={image} id={styles.pattern3}  /> : pattern ==4 ?  <img src={image} id={styles.pattern4} /> : ""}
+             
 
-           </div>
+           
 
 </>
         
     )
 }
+Card.propTypes = {
+    image: PropTypes.string.isRequired,
+    description: PropTypes.string,
+    title: PropTypes.string,
+    subImage: PropTypes.string,
+    pattern: PropTypes.number.isRequired,
+  };

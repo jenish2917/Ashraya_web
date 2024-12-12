@@ -2,11 +2,25 @@
 priority 6-10 : pattern2 - :horizontal
 priority 10 up : pattern3 - :squery */
 
-.ImageCon{
-    display: grid;
-    height: 100px;
-   grid-template-columns: auto auto auto auto;
-   
+
+img{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+    object-fit: cover;
+}
+.ImageCon > img{
+
+    object-fit: cover;
+    
+}
+#pattern1{
+    height: 100%;
+    width: 100%;
+    object-fit:fill;
+   grid-column: 1 / 3;
+   grid-row: 1 / 2 ;
 }
 /* .pattern1 img {
     
