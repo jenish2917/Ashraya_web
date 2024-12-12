@@ -1,0 +1,32 @@
+.container {
+    padding: 20px;
+}
+
+.header {
+    font-size: 2rem;
+    color: #865A5A;
+    margin-bottom: 20px;
+}
+
+.mainImage {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.subImages {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.subImage {
+    width: calc(33.333% - 10px);
+    height: auto;
+}

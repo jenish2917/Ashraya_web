@@ -4,10 +4,7 @@ export default function Card({ image , description , title , subImage , pattern 
     return(
         <>
            
-              
-                   {pattern == 1 ? <img src={image} id={styles.pattern1}/> : pattern == 2 ?  <img src={image} id={styles.pattern2} /> : pattern == 3 ? <img src={image} id={styles.pattern3}  /> : pattern ==4 ?  <img src={image} id={styles.pattern4} /> : ""}
-             
-
+          
            
 
 </>

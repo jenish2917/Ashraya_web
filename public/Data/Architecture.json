@@ -5,42 +5,19 @@
         "pattern" : 1,
         "title":" LA GRANADA ",
         "sumImages":[
-              "/public/la_granada/IMG-20241125-WA0001.jpg",
+            
               "/public/la_granada/IMG-20241125-WA0002.jpg",
               "/public/la_granada/IMG-20241125-WA0003.jpg",
               "/public/la_granada/IMG-20241125-WA0004.jpg",
-              "/public/la_granada/IMG-20241125-WA0005.jpg"
-        ]
-    }, {
-        "image":"/public/la_granada/IMG-20241125-WA0001.jpg",
-        "description" : " Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quibusdam odit recusandae reprehenderit delectus quae quis iste sint magni enim nobis excepturi totam, facilis sapiente minima possimus velit. Expedita, at.",
-        "pattern" : 2,
-        "title":" LA GRANADA ",
-        "sumImages":[
-              "/public/la_granada/IMG-20241125-WA0001.jpg",
-              "/public/la_granada/IMG-20241125-WA0002.jpg",
-              "/public/la_granada/IMG-20241125-WA0003.jpg",
-              "/public/la_granada/IMG-20241125-WA0004.jpg",
-              "/public/la_granada/IMG-20241125-WA0005.jpg"
-        ]
-    },
-    {
-        "image":"/public/la_granada/IMG-20241125-WA0001.jpg",
-        "description" : " Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quibusdam odit recusandae reprehenderit delectus quae quis iste sint magni enim nobis excepturi totam, facilis sapiente minima possimus velit. Expedita, at.",
-        "pattern" : 3,
-        "title":" LA GRANADA ",
-        "sumImages":[
-              "/public/la_granada/IMG-20241125-WA0001.jpg",
-              "/public/la_granada/IMG-20241125-WA0002.jpg",
-              "/public/la_granada/IMG-20241125-WA0003.jpg",
-              "/public/la_granada/IMG-20241125-WA0004.jpg",
-              "/public/la_granada/IMG-20241125-WA0005.jpg"
+              "/public/la_granada/IMG-20241125-WA0005.jpg",
+              "/public/la_granada/IMG-20241125-WA0006.jpg",
+              "/public/la_granada/IMG-20241125-WA0007.jpg"
         ]
     },
     {
         "image":"/public/empire/1.jpg",
         "description" : " Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quibusdam odit recusandae reprehenderit delectus quae quis iste sint magni enim nobis excepturi totam, facilis sapiente minima possimus velit. Expedita, at.",
-        "pattern" : 4,
+        "pattern" : 2,
         "title":"THE EMPIRE",
         "sumImages":[
             "/public/empire/2.jpg",
