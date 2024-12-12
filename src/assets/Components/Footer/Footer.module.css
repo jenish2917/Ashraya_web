@@ -6,6 +6,7 @@ footer ul li a{
 }
 footer {
     color: #3F0101; /* Dark red text color */
+    background-color: #fff; /* Light grey background color */
     text-align: center;
     padding: 10px 0;
     position: fixed;
