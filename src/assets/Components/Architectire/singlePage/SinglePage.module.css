@@ -20,7 +20,7 @@
     margin-bottom: 20px;
 }
 
-.subImages {
+.sumImages {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;

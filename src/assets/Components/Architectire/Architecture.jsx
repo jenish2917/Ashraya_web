@@ -5,12 +5,8 @@ import ArchitectureData from "../../../../public/Data/Architecture.json";
 export default function Architecture() {
     const navigate = useNavigate();
 
-    const handleClick = (title) => {
-        if (title.trim() === "LA GRANADA") {
-            navigate('/LaGranada', { state: { title } });
-        } else if (title.trim() === "THE EMPIRE") {
-            navigate('/TheEmpire', { state: { title } });
-        }
+    const handleClick = (id) => {
+        navigate(`/singlepage/${id}`);
     };
 
     return (
@@ -23,7 +19,7 @@ export default function Architecture() {
             <div className={styles.ImageCon}> 
                 {
                     ArchitectureData.map((item, index) => (
-                        <div key={index} id={styles[`pattern${item.pattern}`]} onClick={() => handleClick(item.title)}>
+                        <div key={index} id={styles[`pattern${item.pattern}`]} onClick={() => handleClick(item.id)}>
                             <img src={item.image} alt={item.title} />
                             <span className="title">{item.title}</span>
                         </div>

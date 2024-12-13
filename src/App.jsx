@@ -7,8 +7,7 @@ import News from './assets/Components/News/News'
 import Header from "./assets/Components/Header/Header"
 import Footer from './assets/Components/Footer/Footer'
 import Architecture from "./assets/Components/Architectire/Architecture"
-import LaGranada from "./assets/Components/Architectire/LaGranada/LaGranada"
-import TheEmpire from "./assets/Components/Architectire/TheEmpire/TheEmpire"
+import SinglePage from "./assets/Components/Architectire/singlePage/SinglePage"
 import Contact from "./assets/Components/Contact/Contact";
 
 function App() {
@@ -23,8 +22,7 @@ function App() {
             <Route path="/Careers" element={<Careers />} />
             <Route path="/News" element={<News />} />
             <Route path='/Architecture' element={<Architecture />} />
-            <Route path='/LaGranada' element={<LaGranada />} />
-            <Route path='/TheEmpire' element={<TheEmpire />} />
+            <Route path='/singlepage/:id' element={<SinglePage />} />
             <Route path='/Contact' element={<Contact />} />
           </Routes>
           <Footer />
