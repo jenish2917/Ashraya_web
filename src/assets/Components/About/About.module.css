@@ -1,0 +1,35 @@
+.container {
+    padding: 20px;
+}
+
+.header {
+    font-size: 2rem;
+    color: #865A5A;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.owners {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.owner {
+    text-align: center;
+    margin: 20px;
+}
+
+.ownerImage {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.ownerDetails {
+    font-size: 1rem;
+    color: #333;
+}
