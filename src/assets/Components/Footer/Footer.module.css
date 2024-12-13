@@ -5,8 +5,8 @@ footer ul li a{
     font-weight: 600; 
 }
 footer {
-    color: #3F0101; /* Dark red text color */
-    background-color: #fff; /* Light grey background color */
+    color: #3F0101; 
+    background-color: #fff; 
     text-align: center;
     padding: 10px 0;
     position: fixed;
@@ -17,18 +17,18 @@ footer {
 footer ul {
     list-style-type: none;
     padding: 0;
-    margin: 0; /* Remove default margin */
+    margin: 0; 
 }
 footer ul li {
-    display: inline-block; /* Display items in a line */
-    margin-right: 20px; /* Add margin between items */
+    display: inline-block; 
+    margin-right: 20px; 
 }
 footer ul li Link {
-    color: #3F0101; /* Dark red text color */
+    color: #3F0101;
     text-decoration: none;
-    transition: color 0.3s; /* Smooth transition for color change */
-    font-weight: bold; /* Bold font for footer menu items */
+    transition: color 0.3s;
+    font-weight: bold;
 }
 footer ul li a:hover {
-    color: #865A5A; /* Darker red color on hover */
+    color: #865A5A;
 }

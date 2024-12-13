@@ -4,7 +4,7 @@
         "image":"/public/la_granada/IMG-20241125-WA0001.jpg",
         "description" : " Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quibusdam odit recusandae reprehenderit delectus quae quis iste sint magni enim nobis excepturi totam, facilis sapiente minima possimus velit. Expedita, at.",
         "pattern" : 1,
-        "title":" LA GRANADA ",
+        "title":"   LA GRANADA ",
         "subImages":[
             
               "/public/la_granada/IMG-20241125-WA0002.jpg",
@@ -20,7 +20,7 @@
         "image":"/public/empire/1.jpg",
         "description" : " Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quibusdam odit recusandae reprehenderit delectus quae quis iste sint magni enim nobis excepturi totam, facilis sapiente minima possimus velit. Expedita, at.",
         "pattern" : 2,
-        "title":"THE EMPIRE",
+        "title":"  THE EMPIRE",
         "subImages":[
             "/public/empire/2.jpg",
             "/public/empire/3.jpg",
@@ -28,5 +28,7 @@
             "/public/empire/5.jpg"
                ]       
     }
+
+
   
 ]

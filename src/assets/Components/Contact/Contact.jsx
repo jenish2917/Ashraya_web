@@ -1,26 +1,24 @@
-import { useLocation } from 'react-router-dom';
+import { useEffect, useState } from 'react';
 import styles from "./Contact.module.css";
 
 export default function Contact() {
-    const location = useLocation();
+    const [contactDetails, setContactDetails] = useState({});
+
+    useEffect(() => {
+        fetch('/Data/Contact.json')
+            .then(response => response.json())
+            .then(data => setContactDetails(data));
+    }, []);
+
     return (
         <div className={styles.container}>
             <h1 className={styles.header}>Contact Us</h1>
-            <form className={styles.form}>
-                <div className={styles.formGroup}>
-                    <label htmlFor="name" className={styles.label}>Name</label>
-                    <input type="text" id="name" className={styles.input} />
-                </div>
-                <div className={styles.formGroup}>
-                    <label htmlFor="email" className={styles.label}>Email</label>
-                    <input type="email" id="email" className={styles.input} />
-                </div>
-                <div className={styles.formGroup}>
-                    <label htmlFor="message" className={styles.label}>Message</label>
-                    <textarea id="message" className={styles.textarea}></textarea>
-                </div>
-                <button type="submit" className={styles.button}>Submit</button>
-            </form>
+            <div className={styles.details}>
+                <p><strong>Company Name:</strong> {contactDetails.companyName}</p>
+                <p><strong>Address:</strong> {contactDetails.address}</p>
+                <p><strong>Phone:</strong> {contactDetails.phone}</p>
+                <p><strong>Email:</strong> <a href={`mailto:${contactDetails.email}`}>{contactDetails.email}</a></p>
+            </div>
         </div>
     );
 }

@@ -1,15 +1,17 @@
-.architectureHead{
+.architectureHead {
     padding: 35px 0px;
     color:  #865A5A;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 0px;
 }
-img{
+
+img {
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
-.ImageCon{
+
+.ImageCon {
     padding-top: 50px;
     display: grid;
     grid-template-columns: 32.5% 32.5% 32.5%;
@@ -18,36 +20,32 @@ img{
     grid-auto-rows: 24vw;
     grid-auto-flow: dense;
     object-fit: cover;
-    
 }
 
-.architectureSearch{
+.architectureSearch {
     display: flex;
     column-gap: 15px;
-    align-items:end;
+    align-items: end;
 }
-.architectureSearch > input{
+
+.architectureSearch > input {
     border: 0;
     border-bottom: 1px solid grey;
 }
-.architectureSearch > i{
+
+.architectureSearch > i {
     color: grey;
     font-size: 20px;
 }
-
-
-
-
 
 /* card style */
 
 /*pattern1 - :horizontal
  pattern2 - :vertical
- pattern3 - :squer (1 : 1)
- pattern4 - : squer (2 : 2)*/
+ pattern3 - :square (1 : 1)
+ pattern4 - : square (2 : 2)*/
 
-
- img{
+img {
     width: 100%;
     height: 100%;
     display: inline-block;
@@ -56,16 +54,13 @@ img{
     position: relative;
     z-index: -1;
     margin-bottom: 50px;
-
 }
-.ImageCon > img{
 
+.ImageCon > img {
     object-fit: cover;
-   
-    
 }
 
-span{ 
+span {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -74,7 +69,7 @@ span{
     background-size: 100% 1.25rem;
     background-image: linear-gradient(45deg, #f5f5f5ff, transparent);
     color: #3F0101;
-    padding: 5px 0;
+    padding: 0 0 0 13px;
     margin-left: -10px;
     opacity: 0;
     font-size: 1rem;
@@ -83,55 +78,54 @@ span{
     z-index: 12;
 }
 
-#pattern1:hover span{
+#pattern1:hover span {
     opacity: 1;
 }
 
-#pattern2:hover span{
+#pattern2:hover span {
     opacity: 1;
 }
 
-#pattern3:hover span{
+#pattern3:hover span {
     opacity: 1;
 }
 
-#pattern4:hover span{
+#pattern4:hover span {
     opacity: 1;
 }
 
-#pattern1{
+#pattern1 {
     height: 100%;
     width: 100%;
-    object-fit:fill;
+    object-fit: fill;
     grid-column: 1 / 3;
-    grid-row: 1 / 2 ;
+    grid-row: 1 / 2;
     position: relative;
 }
-#pattern2{
+
+#pattern2 {
     height: 100%;
     width: 100%;
-    object-fit:fill; 
+    object-fit: fill;
     grid-column: 3 / 4;
     grid-row: 1 / 3;
     position: relative;
-    
 }
-#pattern3{
+
+#pattern3 {
     height: 100%;
     width: 100%;
-    object-fit:fill;
+    object-fit: fill;
     grid-column: 1 / 2;
     grid-row: 2 / 3;
     position: relative;
 }
 
-#pattern4{
+#pattern4 {
     height: 100%;
     width: 100%;
-    object-fit:fill;  
+    object-fit: fill;
     grid-column: 2 / 4;
     grid-row: 3 / 5;
     position: relative;
 }
-
-
