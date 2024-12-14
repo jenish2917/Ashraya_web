@@ -7,7 +7,7 @@ export default function Contact() {
     useEffect(() => {
         fetch('/Data/Contact.json')
             .then(response => response.json())
-            .then(data => setContactDetails(data));
+            .then(data => setContactDetails(data[0]));
     }, []);
 
     return (
