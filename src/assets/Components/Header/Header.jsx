@@ -17,7 +17,7 @@ export default function Header() {
       <header className="navbar navbar-expand-md w-100">
         {!isHomePage ? <div className={styles.header}>
             <div id="h" >
-                <img src="/public/loggo.jpg" alt="Company Logo" id={styles.headerLogo}  onClick={gotoHome}/>
+                <img src={`${import.meta.env.BASE_URL}loggo.svg`} alt="Company Logo" id={styles.headerLogo} onClick={gotoHome}/>
             </div>
             <h1 className={styles.headerContent} onClick={gotoHome}>Ashraya Architects</h1>
         </div> : ""}    

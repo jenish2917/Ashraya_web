@@ -9,8 +9,12 @@
     flex-direction: column;
 }
 .logo > #logo_main {
-   display: block;  
-  
+   display: block;
+   max-width: 200px;  /* Adjust this value as needed */
+   max-height: 200px; /* Adjust this value as needed */
+   width: 200px;      /* Fixed width to ensure consistent sizing */
+   height: 200px;     /* Fixed height to ensure consistent sizing */
+   object-fit: contain; /* Ensure the logo fits within the container */
 }
 .companyName {
     display: block;
