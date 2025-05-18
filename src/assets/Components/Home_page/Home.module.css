@@ -7,14 +7,17 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    gap: 5px; /* Reduced gap between logo and name by 50% (from 10px to 5px) */
 }
 .logo > #logo_main {
    display: block;
-   max-width: 200px;  /* Adjust this value as needed */
-   max-height: 200px; /* Adjust this value as needed */
-   width: 200px;      /* Fixed width to ensure consistent sizing */
-   height: 200px;     /* Fixed height to ensure consistent sizing */
+   max-width: 220px;  /* Increased by 10% */
+   max-height: 220px; /* Increased by 10% */
+   width: 220px;      /* Increased by 10% */
+   height: 220px;     /* Increased by 10% */
    object-fit: contain; /* Ensure the logo fits within the container */
+   margin-bottom: -40px;
+   padding-bottom: 0; /* Further reduce space between logo and text */
 }
 .companyName {
     display: block;
@@ -23,7 +26,8 @@
     font-weight: 900;
     font-style: normal;
     color: #532424; /* Dark red text color */
-    /* Initially hide company name */
+    margin-top: -40px; 
+    padding-top : 0;
     transition: opacity 1s ease; /* Fade-in animation for company name */
 }
 

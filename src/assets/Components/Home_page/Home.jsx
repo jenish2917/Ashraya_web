@@ -11,10 +11,10 @@ export default function Home()
                 alt="Company Logo" 
                 id="logo_main"
                 style={{
-                    maxWidth: "200px",
-                    maxHeight: "200px",
-                    width: "200px",
-                    height: "200px",
+                    maxWidth: "220px",
+                    maxHeight: "220px",
+                    width: "220px",
+                    height: "220px",
                     objectFit: "contain"
                 }}
             />
